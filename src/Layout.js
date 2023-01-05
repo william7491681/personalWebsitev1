@@ -9,7 +9,7 @@ export default function Layout() {
 
     return (
         <div >
-            <img src={background} alt="background" className="bg-cover bg-center"/>
+            {/* <img src={background} alt="background" className="bg-cover bg-center"/> */}
             <Navbar />
             <Home />
             <About />
