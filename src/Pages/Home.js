@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="h-full">
+    <div className="h-screen pt-10" id="Home">
       <h1>
-        test
+        Home Page
       </h1>
     </div>
   )

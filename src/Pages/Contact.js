@@ -2,8 +2,10 @@ import React from "react";
 
 export default function Contact() {
     return (
-        <h1>
-            contact
-        </h1>
+        <div className="h-screen pt-10" id="Contact">
+            <h1>
+                Contact Page
+            </h1>
+        </div>
     )
 }
