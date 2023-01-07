@@ -5,7 +5,7 @@ export default function Home() {
 
   const [rolesIndex, setRolesIndex] = React.useState(0);
 
-  const roles = ["Software Developer", "Data Analyst", "Web Developer", "Perpetual Student"];
+  const roles = ["Software Developer", "Data Analyst", "Web Developer"];
   React.useEffect(() => {
     const interval = setInterval(() => {
       setRolesIndex(rolesIndex+1);
@@ -16,7 +16,7 @@ export default function Home() {
 
   let role = roles[rolesIndex % roles.length];
   return (
-    <div className="h-[800px] pt-4 md:pt-0 flex flex-col relative" id="Home">
+    <div className="h-[565px] pt-4 md:pt-0 flex flex-col relative" id="Home">
       {/* <h1 className="text-4xl md:text-5xl font-bold text-center mt-28 md:mt-14 text-white">
         William Dines
       </h1> */}
