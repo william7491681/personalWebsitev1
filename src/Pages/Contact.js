@@ -20,7 +20,7 @@ export default function Contact() {
                     <div className="flex flex-col pt-2">
                         <label htmlFor="phone-number">Phone Number:</label>
                         <input type="tel" name="phone-number" id="phone-number" className="text-black px-1"
-                        pattern="^[1-9]\d{2}-\d{3}-\d{4}" placeholder="123-456-7890"/>
+                        pattern="^[1-9]\d{2}\d{3}\d{4}" placeholder="1234567890"/>
                     </div>
                 </div>
                 <div className="pt-5 pb-2 flex justify-center">
