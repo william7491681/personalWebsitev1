@@ -26,10 +26,10 @@ export default function Home() {
       </div>
       <img alt="" className="self-center h-[200px] w-[200px] md:h-[300px] md:w-[300px]
       bg-cover bg-william mt-5" />
-      <p className="text-white text-center text-3xl mt-10">
+      <p className="text-white text-center text-xl md:text-3xl mt-10">
         I am a
       </p>
-      <p className="text-[#ff0000d8] font-bold text-center text-3xl">
+      <p className="text-[#ff0000d8] font-bold text-center text-xl md:text-3xl">
         {role}
       </p>
     </div>
