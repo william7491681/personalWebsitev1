@@ -9,7 +9,7 @@ export default function Home() {
   React.useEffect(() => {
     const interval = setInterval(() => {
       setRolesIndex(rolesIndex+1);
-    }, 3000);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, [rolesIndex]);
